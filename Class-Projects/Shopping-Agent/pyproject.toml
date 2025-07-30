@@ -1,0 +1,14 @@
+[project]
+name = "shopping-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fuzzywuzzy>=0.18.0",
+    "openai-agents>=0.2.0",
+    "python-dotenv>=1.1.1",
+    "python-levenshtein>=0.27.1",
+    "rich>=14.0.0",
+    "streamlit>=1.47.0",
+]
